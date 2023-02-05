@@ -123,20 +123,18 @@ class ViewController: UIViewController, UITextFieldDelegate  {
             salesTaxResult.text = String(format:"%.0f", salesTaxLabel)
             finalPriceResult.text = String(format:"%.0f", finalPriceLabel)
         }
-        
-        func SalesTaxResetButton(_ sender: Any) {
-            salesTaxResult.text = "0"
-            finalPriceResult.text = "0"
-            listPriceTextField.text = ""
-            salesTaxTextField.text = ""
-            if scrollView.contentOffset.y == 0{
-                scrollView.setContentOffset(CGPoint(x:  414, y: 0), animated: true)
-            } else {
-                scrollView.setContentOffset(CGPoint(x: 414, y: 336), animated: true)
-            }
+    }
+    @IBAction func SalesTaxResetButton(_ sender: Any) {
+        salesTaxResult.text = "0"
+        finalPriceResult.text = "0"
+        listPriceTextField.text = ""
+        salesTaxTextField.text = ""
+        if scrollView.contentOffset.y == 0{
+            scrollView.setContentOffset(CGPoint(x:  414, y: 0), animated: true)
+        } else {
+            scrollView.setContentOffset(CGPoint(x: 414, y: 336), animated: true)
         }
     }
-    
     @IBAction func nextPage(_ sender: Any) {
         scrollView.setContentOffset(CGPoint(x: 414, y: 0), animated: true)
     }

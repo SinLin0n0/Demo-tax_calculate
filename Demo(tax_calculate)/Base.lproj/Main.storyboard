@@ -229,7 +229,7 @@
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="SalesTaxResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xnh-wY-vOi"/>
+                                                            <action selector="SalesTaxResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uy8-iX-IXX"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="消費稅(%)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3e5-J5-6oq">
